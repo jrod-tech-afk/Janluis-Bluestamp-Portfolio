@@ -1,5 +1,5 @@
 # Pulse Sensor
-I have made a pulse sensor using the arduino, a small ambient light photosensor, and an I2C LCD screen which are both connected to the arduino via its I2C pins. My project is able to display your heartrate through the LCD screen if you put your finger on the sensor, which I was able to achieve through coding it in the arduino in order for it to input my BPM and output it throughh the LCD screen.
+I have made a pulse sensor using the arduino, a small ambient light photosensor, and an I2C LCD screen which are both connected to the arduino via its I2C pins. My project is able to display your heartrate through the LCD screen if you put your finger on the sensor, which I was able to achieve through coding it in the arduino in order for it to input my BPM and output it through the LCD screen.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
