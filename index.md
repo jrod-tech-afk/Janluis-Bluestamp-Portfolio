@@ -43,7 +43,7 @@ I have made a pulse sensor using the arduino, a small ambient light photosensor,
 - I just want to get the base project working first, then I will worry about the modifications in my next milestone
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+![Schematic Image](https://images.openai.com/static-rsc-4/4ETYzXp-AUNUHz89ztndnw7IjdW0455alfZaRVzCQocTNUy_72DidtLhmRs1HApy1O6MrlZsctkKtUyj5Jjx_GRgmkL_kQfzM8GhTFjRX2eH5mRlZsfJpnBhSIju1jriLQlgdOyu-_z6WdBC98STqYjrMXzSGA50XawZqNMvC5--8hXDRt7YLuQBqP3hPzaT?purpose=fullsize)
 
 # Code 
 
