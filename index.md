@@ -7,7 +7,7 @@ I have made a pulse sensor using the arduino, a small ambient light photosensor,
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](https://images.openai.com/static-rsc-4/4ETYzXp-AUNUHz89ztndnw7IjdW0455alfZaRVzCQocTNUy_72DidtLhmRs1HApy1O6MrlZsctkKtUyj5Jjx_GRgmkL_kQfzM8GhTFjRX2eH5mRlZsfJpnBhSIju1jriLQlgdOyu-_z6WdBC98STqYjrMXzSGA50XawZqNMvC5--8hXDRt7YLuQBqP3hPzaT?purpose=fullsize)
+![Headstone Image]()
   
 # Final Milestone
 
