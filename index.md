@@ -6,7 +6,7 @@ I have made a pulse sensor using the arduino, a small ambient light photosensor,
 | Janluis R | KIPP NYC College Prep | Computer Engineering | Incoming Senior
 
 <div align="center">
-<img src="IMG_6653.jpeg" style="width:90%; max-width:1000px; height:auto;">
+<img src="IMG_6653.jpeg" style="width:85%; max-width:900px; height:350px; object-fit:cover;">
 </div>
   
 # Final Milestone
