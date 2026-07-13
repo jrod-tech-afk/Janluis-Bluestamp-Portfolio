@@ -115,7 +115,6 @@ void loop()
 | 16X2 I2C LCD Display | Display Pulse Rate | $10 | <a href="https://amzn.to/3UDntGw"> Link </a> |
 | Jumper Wires | Connects everything together | $7 | <a href="https://amzn.to/3F8fLhW"> Link </a> |
 | Breadboard | Prototypes Electric Circuits | $8 | <a href="https://amzn.to/3Bg68wE"> Link </a> |
-| Name | Description | $price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
 - [Resource 1](https://how2electronics.com/pulse-rate-bpm-monitor-arduino-pulse-sensor/)
