@@ -1,11 +1,5 @@
 # Pulse Sensor
-I have made a pulse sensor using the arduino, a sensor, and an LCD screen. My project is able to display your heartrate through the LCD screen if you put your finger on the sensor. I have modified it by adding a beeping noise that matches with the pulse rate
-
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+I have made a pulse sensor using the arduino, a small ambient light photosensor, and an I2C LCD screen which are both connected to the arduino via its I2C pins. My project is able to display your heartrate through the LCD screen if you put your finger on the sensor, which I was able to achieve through coding it in the arduino in order for it to input my BPM and output it throughh the LCD screen.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -53,19 +47,66 @@ You should comment out all portions of your portfolio that you have not complete
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
-# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+# Code 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
+// Include necessary libraries
+#define USE_ARDUINO_INTERRUPTS true
+#include <PulseSensorPlayground.h>
+#include <LiquidCrystal_I2C.h>
+LiquidCrystal_I2C  lcd(0x27, 16, 2); // set the LCD address to 0x27 for a 16 chars and 2 line display
+ 
+ 
+// Constants
+const int PULSE_SENSOR_PIN = 0;  // Analog PIN where the PulseSensor is connected
+const int LED_PIN = 13;          // On-board LED PIN
+const int THRESHOLD = 550;       // Threshold for detecting a heartbeat
+ 
+// Create PulseSensorPlayground object
+PulseSensorPlayground pulseSensor;
+ 
+void setup()
+{
+  // Initialize Serial Monitor
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  lcd.init();
+  lcd.backlight();
+ 
+  // Configure PulseSensor
+  pulseSensor.analogInput(PULSE_SENSOR_PIN);
+  pulseSensor.blinkOnPulse(LED_PIN);
+  pulseSensor.setThreshold(THRESHOLD);
+ 
+  // Check if PulseSensor is initialized
+  if (pulseSensor.begin())
+  {
+    Serial.println("PulseSensor object created successfully!");
+  }
 }
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
+ 
+void loop()
+{
+  lcd.setCursor(0, 0);
+  lcd.print("Heart Rate");
+  
+  // Get the current Beats Per Minute (BPM)
+  int currentBPM = pulseSensor.getBeatsPerMinute();
+ 
+  // Check if a heartbeat is detected
+  if (pulseSensor.sawStartOfBeat())
+  {
+    Serial.println("♥ A HeartBeat Happened!");
+    Serial.print("BPM: ");
+    Serial.println(currentBPM);
+ 
+    lcd.clear();
+    lcd.setCursor(0, 1);
+    lcd.print("BPM: ");
+    lcd.print(currentBPM);
+  }
+ 
+  // Add a small delay to reduce CPU usage
+  delay(20);
 }
 ```
 
@@ -81,9 +122,6 @@ void loop() {
 | Name | Description | $price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
+- [Resource 1](https://how2electronics.com/pulse-rate-bpm-monitor-arduino-pulse-sensor/)
+- [Resource 2](https://chatgpt.com/c/6a44250c-60f0-83ea-bedf-9c5fe65b8f04?mweb_fallback=1)
+- [Example 1](https://drive.google.com/file/d/1GIGxyskToY8Ep137GnfTcfMCH4LaB6MF/view?pli=1)
