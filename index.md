@@ -5,7 +5,7 @@ I have made a pulse sensor using the arduino, a small ambient light photosensor,
 |:--:|:--:|:--:|:--:|
 | Janluis R | KIPP NYC College Prep | Computer Engineering | Incoming Senior
 
-![Headstone Image](IMG_6653.jpeg)
+![Headstone Image](<img src="IMG_6653.jpeg" width="1000">)
   
 # Final Milestone
 
@@ -118,5 +118,5 @@ void loop()
 
 # Other Resources/Examples
 - [Resource 1](https://how2electronics.com/pulse-rate-bpm-monitor-arduino-pulse-sensor/)
-- [Resource 2](https://chatgpt.com/c/6a44250c-60f0-83ea-bedf-9c5fe65b8f04?mweb_fallback=1)
+- [Resource 2: Some of my code is derived from ChatGPT and I also asked it for help with troubleshooting my hardware and software](https://chatgpt.com/c/6a44250c-60f0-83ea-bedf-9c5fe65b8f04?mweb_fallback=1)
 - [Example 1](https://drive.google.com/file/d/1GIGxyskToY8Ep137GnfTcfMCH4LaB6MF/view?pli=1)
