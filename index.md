@@ -5,7 +5,7 @@ I have made a pulse sensor using the arduino, a small ambient light photosensor,
 |:--:|:--:|:--:|:--:|
 | Janluis R | KIPP NYC College Prep | Computer Engineering | Incoming Senior
 
-  ![Headstone Image](IMG_6653.jpeg)
+![Headstone Image](IMG_6653.jpeg)
   
 # Final Milestone
 
