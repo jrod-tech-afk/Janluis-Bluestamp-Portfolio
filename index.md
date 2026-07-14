@@ -11,9 +11,6 @@ I developed a pulse monitoring system using an Arduino, a light-based pulse sens
   
 # Final Milestone
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 - Finalized project, finished portfolio, I am ready to present
 - My biggest challenges were learning to use the softwares like github and arduino
 - I learned how to implement my hardware into my pc in order to make it work with the software
@@ -22,7 +19,7 @@ I developed a pulse monitoring system using an Arduino, a light-based pulse sens
 # Second Milestone
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 - Modded my pulse sensor. Now I have a working sound system that matches the pulse rate with a 'beep' noise
 - I was surprised on how much the arduino can do with just a few wires and being plugged in to my PC
@@ -36,7 +33,7 @@ I developed a pulse monitoring system using an Arduino, a light-based pulse sens
 
 - The arduino is the heart of the whole project, it connects to a sensor and an lcd screen to display the pulse rate
 - I have connected all of the wires to the arduino 
-- I am having trouble with parts, the sensor doesn't come with the wires attatched and so does the LCD screen, so I had replacements sent to me in order to make it work
+- I learned how to code in c++, which i was unfamiliar with and also how to deal with software and hardware at the same time, teaching me how to multitask and problem solve.
 - I just want to get the base project working first, then I will worry about the modifications in my next milestone
 
 # Schematics 
