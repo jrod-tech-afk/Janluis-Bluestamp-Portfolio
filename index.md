@@ -35,7 +35,7 @@ I developed a pulse monitoring system using an Arduino, a light-based pulse sens
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qg-lbCFSCJA?si=0kQ6s_3pQA3wvtbP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qg-lbCFSCJA?si=0kQ6s_3pQA3wvtbP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - The arduino is the heart of the whole project, it connects to a sensor and an lcd screen to display the pulse rate
 - I have connected all of the wires to the arduino 
